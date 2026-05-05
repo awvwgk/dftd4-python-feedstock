@@ -1,13 +1,13 @@
 {% set name = "dftd4-python" %}
-{% set version = "4.1.0" %}
+{% set version = "4.1.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/dftd4/dftd4/releases/download/v{{ version }}/dftd4-{{ version }}-source.tar.xz
-  sha256: a61bc0c8e8a7db5302ef4f4f1ebc834bb9dcf2896b0e2af746f25a0d4177d8d0
+  url: https://github.com/dftd4/dftd4/releases/download/v{{ version }}/dftd4-{{ version }}.tar.gz
+  sha256: a5b99d6da814dfefa8fa14373e8361f64838309b7f374690e0a18201376490bf
 
 build:
   number: 0
