@@ -21,6 +21,6 @@ ${PYTHON} -m build \
     --outdir . \
     --no-isolation \
     --wheel \
-    python/
+    .
 
 ${PYTHON} -m pip install *.whl --no-deps -vv
